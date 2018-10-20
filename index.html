@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Login</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js" type ="text/javascript"></script>
+        <script type="text/javascript" src="login.js"></script>
+        <link rel="stylesheet" type="text/css" href="login.css">
+    </head>
+    <body>
+        <div id="target">
+            <form id="login" class="page-center login">
+                <fieldset>
+                    <legend id="s1-b2">Login</legend>
+                    <label id="s1-b3" for="username">Username</label>
+                    <input id="s1-b4" name="username" id="username">
+                    <button id="s1-b1" style="float:right;margin-top:1em;">Login</button>
+                </fieldset>
+            </form>
+            <div class="no-overflow ">
+                <p id="s1-b5" class="hide"></p>
+            </div>
+        </div>
+        <div id="s2" class="hide">
+            <div class="page-center" height="300px">
+                <div id="s2-b2">
+                    <a href="#"><p id="s2-b1" class="rotate">?</p></a>
+                </div>
+            </div>
+        </div>
+        <div id="s3" class="hide">
+            <input id="s3-b1" type="range" min="1" max="100" value="0" class="slider" id="s3-b1">
+        </div>
+        <div id="s4" class="hide">
+            <p class="page-center">Logged in</p>
+        </div>
+    </body>
+</html>
